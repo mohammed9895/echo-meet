@@ -29,7 +29,7 @@ function MobileNav() {
             className="cursor-pointer sm:hidden"
           />
         </SheetTrigger>
-        <SheetContent side="left" className="bordr-none bg-dark-1">
+        <SheetContent side="left" className="bordr-none bg-slate-700">
           <Link href="/" className="flex items-center gap-1">
             <Image
               src="/icons/logo.svg"
@@ -53,7 +53,7 @@ function MobileNav() {
                         className={cn(
                           "flex gap-4 items-center p-4 rounded-xl w-full max-w-60",
                           {
-                            "bg-blue-1": isActive,
+                            "bg-indigo-600": isActive,
                           }
                         )}
                       >
